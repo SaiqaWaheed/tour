@@ -3,7 +3,7 @@ include 'connection.php';
 
 // Function to fetch weather data using cURL
 function getWeather($city) {
-    $apiKey = "30202f78f589a24b75df879e014301f6"; // اپنا OpenWeatherMap API Key یہاں رکھیں
+    $apiKey = "30202f78f589a24b75df879e014301f6"; 
     $url = "http://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric";
 
     $ch = curl_init(); 
@@ -14,7 +14,7 @@ function getWeather($city) {
     $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
     curl_close($ch);
 
-    if ($http_code == 200) { // API نے کامیابی سے جواب دیا
+    if ($http_code == 200) { 
         return json_decode($response, true);
     } else {
         return false;
@@ -23,7 +23,7 @@ function getWeather($city) {
 curl_close($ch);
 
 echo "<pre>";
-print_r($response); // یہ API کا مکمل جواب دکھائے گا
+print_r($response); 
 echo "</pre>";
 
 return json_decode($response, true);
