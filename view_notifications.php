@@ -30,7 +30,7 @@ $result = mysqli_query($conn, $sql);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Notifications</title>
     <style>
-        /* 🔹 Full Page Background */
+        /*Full Page Background */
         body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
@@ -43,7 +43,7 @@ $result = mysqli_query($conn, $sql);
             background-size: cover;
         }
 
-        /* 🔹 Container */
+        /* Container */
         .container {
             width: 80%;
             max-width: 600px;
@@ -54,13 +54,13 @@ $result = mysqli_query($conn, $sql);
             color: white;
             text-align: center;
             backdrop-filter: blur(8px);
-            border: 2px solid green; /* Neon Purple Border */
+            border: 2px solid green; 
         }
 
         h2 {
             font-size: 24px;
             margin-bottom: 15px;
-            color: white; /* Electric Blue */
+            color: white; 
             text-shadow: 0px 0px 10px #0ef;
             
         }
