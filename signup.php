@@ -64,14 +64,14 @@ if (mysqli_num_rows($result) > 0) {
 ?>
 
 <style>
-/* 🔹 Full Page Background */
+/* Full Page Background */
 body {
     background: url('pics/g17.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: Arial, sans-serif;
 }
 
-/* 🔹 Glass Table (Grass Green) */
+/* Glass Table (Grass Green) */
 .glass-table {
     width: 80%;
     margin: 20px auto;
@@ -82,20 +82,20 @@ body {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-/* 🔹 Table */
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
 }
 
-/* 🔹 Table Header */
+/* Table Header */
 thead {
-    background: rgba(34, 139, 34, 0.8); /* 🌿 Darker Grass Green */
+    background: rgba(34, 139, 34, 0.8);
     color: white;
 }
 
-/* 🔹 Table Cells */
+/*  Table Cells */
 th, td {
     padding: 12px;
     text-align: center;
@@ -103,13 +103,13 @@ th, td {
     color: white;
 }
 
-/* 🔹 Hover Effect */
+/*  Hover Effect */
 tr:hover {
     background:black; 
     
 }
 
-/* 🔹 Buttons */
+/* Buttons */
 .btn {
     text-decoration: none;
     padding: 5px 10px;
