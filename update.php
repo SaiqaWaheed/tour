@@ -1,7 +1,7 @@
 <?php
 // update.php
 
-include "connection.php"; // Ensure this file includes your database connection
+include "connection.php"; 
 
 if (isset($_POST['id'])) {
     $id = $_POST['id'];
